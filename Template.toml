@@ -1,0 +1,24 @@
+
+
+[rule]
+author = ["Josh Patrick"]
+description = "Insert Desc"
+from = "now-6m" #default value, change as needed
+name = "Insert Alert Name"
+note = "Insert analyst notes"
+risk_score = 21
+severity = "low"
+tags = ["Example", "tag"]
+type = "query"
+
+query = '''
+Insert Query
+'''
+
+# if type = "threshold"
+# threshold = <something>
+
+# Optional Fields
+# throttle: 7d
+# version: 1
+# interval: 5m
